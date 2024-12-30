@@ -1,0 +1,44 @@
+.data-subscription {
+  margin-left: 220px; /* Adjust based on sidebar width */
+  padding: 20px;
+}
+
+.data-subscription h2 {
+  margin-bottom: 20px;
+}
+
+.data-subscription form {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-subscription label {
+  margin-bottom: 15px;
+}
+
+.data-subscription select,
+.data-subscription input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.data-subscription .error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 5px;
+}
+
+.data-subscription button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.data-subscription button:hover {
+  background-color: #45a049;
+}
